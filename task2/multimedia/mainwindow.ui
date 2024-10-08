@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <spacer name="spacer">
+      <property name="orientation">
+       <enum>Qt::Orientation::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>691</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QComboBox" name="shapeCombo">
+        <item>
+         <property name="text">
+          <string>rectangle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>triangle</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>polygon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ellipse</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>circle</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="fillColorCombo">
+        <item>
+         <property name="text">
+          <string>black</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>red</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>green</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>blue</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>texture</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="borderColorCombo">
+        <item>
+         <property name="text">
+          <string>black border</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>red border</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>green border</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>blue border</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="borderStyleCombo">
+        <item>
+         <property name="text">
+          <string>solid line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>dash line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>dot line</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>no border</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Repaint</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
